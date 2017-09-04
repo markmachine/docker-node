@@ -1,17 +1,17 @@
-FROM		node:latest
+FROM node:latest
 
-MAINTAINER 	Mark Hughes
+MAINTAINER Mark Hughes
 
-ENV			NODE_ENV=production
-ENV 		PORT=3000
+ENV NODE_ENV=production
+ENV PORT=3000
 
-COPY		. /var/www
-WORKDIR		/var/www
+COPY . /var/www
+WORKDIR /var/www
 
-VOLUME		["/var/www"]
+VOLUME ["/var/www"]
 
-RUN			npm install
+RUN npm install
 
-EXPOSE 		$PORT
+EXPOSE $PORT
 
-ENTRYPOINT	["npm", "start"]
+ENTRYPOINT["npm", "start"]
