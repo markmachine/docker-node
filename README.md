@@ -2,6 +2,8 @@
 
 This module steps through the basic process for creating a Docker container based on NodeJs. 
 
+Based on the Docket tutorial from PluralSight
+
 * [build](#build)
 * [run](#run)
 * [push](#push)
