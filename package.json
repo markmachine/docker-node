@@ -1,7 +1,6 @@
 {
-  "name": "@revmachine/simple-node-dock",
+  "name": "simple-node-dock",
   "version": "0.1.1",
-  "private": true,
   "description": "basic node module for testing with Docker",
   "main": "app.js",
   "scripts": {
